@@ -28,7 +28,7 @@ Frontend (The Interface)
 
 The project follows Domain-Driven Design (DDD) principles to ensure that business logic is isolated and scalable.
 Plaintext
-
+```
 agrichama/
 ├── backend/
 │   ├── cmd/api/main.go          # Entry point & Dependency Injection
@@ -54,7 +54,7 @@ agrichama/
 │   └── tailwind.config.js
 │
 └── docker-compose.yml           # Full stack: Go + Postgres + Redis
-
+```
 🏛 Architecture & Design Philosophy
 1. Financial Integrity
 
