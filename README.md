@@ -1,7 +1,7 @@
-🌾 AgriChama
+AgriChama
 
 AgriChama is a digital micro-economy engine designed to empower Village Savings and Loan Associations (VSLAs), smallholder farmers, and communities in disaster-prone regions. It bridges the gap between traditional communal ledger-based savings and modern financial inclusion using a high-performance Go backend and a responsive React frontend.
-🚀 Technical Stack
+Technical Stack
 Backend (The Engine)
 
     Language: Go (Golang) 1.22+
@@ -24,7 +24,7 @@ Frontend (The Interface)
 
     Icons: Lucide React
 
-📂 Project Structure (Domain-Based)
+Project Structure (Domain-Based)
 
 The project follows Domain-Driven Design (DDD) principles to ensure that business logic is isolated and scalable.
 Plaintext
@@ -55,7 +55,7 @@ agrichama/
 │
 └── docker-compose.yml           # Full stack: Go + Postgres + Redis
 ```
-🏛 Architecture & Design Philosophy
+Architecture & Design Philosophy
 1. Financial Integrity
 
     Immutable Ledger: Every transaction (saving or repayment) is recorded as a unique event. We use Soft Deletes (DeletedAt)—financial data is never permanently removed from the database.
@@ -68,13 +68,13 @@ agrichama/
 
     Layout: Bento-grid inspired dashboards with 24px rounded cards to provide a trustworthy, organized user experience for non-technical users.
 
-🛠 Role-Based Access Control (RBAC)
+Role-Based Access Control (RBAC)
 Role	Responsibility
 Leader	VSLA Administrator; approves loans and manages group settings.
 Member	Community user; saves, borrows, and reports risk.
 NGO	Partner; deploys impact tasks and emergency relief funding.
 Buyer	Public; purchases agricultural produce from the Soko marketplace.
-🚦 GitHub Workflow & Team Rules
+GitHub Workflow & Team Rules
 
     Branching:
 
@@ -90,13 +90,13 @@ Buyer	Public; purchases agricultural produce from the Soko marketplace.
 
     Security: Never commit .env files. Ensure all PII (Personally Identifiable Information) is handled according to local data protection laws.
 
-📝 Legal & NDAs
+ Legal & NDAs
 
     IP Ownership: All code and design assets in this repository are the property of the AgriChama project.
 
     Confidentiality: Team members are prohibited from sharing the proprietary TrustScore algorithm or member financial data with third parties.
 
-⚡ Quick Start (Development)
+Quick Start (Development)
 
     Clone the Repo:
     Bash
@@ -125,6 +125,4 @@ Bash
     cd frontend && npm run dev
     ```
 
----
-**Maintained by:** AgriChama Dev Team  
-**Last Updated:** May 2026
+
